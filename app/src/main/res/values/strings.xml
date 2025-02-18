@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FingerPrint Voting</string>
+    <string name="voting_result">[%1$s] voted for :- %2$s</string>
+    <string name="no_votes_message">No votes have been recorded.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#e8f5e9">
+
+    <TextView
+        android:id="@+id/tvResultsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voting Results"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#25D366"
+        android:layout_gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/listResults"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+
+    <Button
+        android:id="@+id/Vote_another"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Another Vote"
+        android:backgroundTint="#25D366"
+        android:textColor="#fff"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/Vote_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calaculate Result"
+        android:backgroundTint="#3B5998"
+        android:textColor="#fff" />
+
+</LinearLayout>
